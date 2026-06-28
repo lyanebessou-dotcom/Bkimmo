@@ -1,0 +1,26 @@
+# Dossiers vides
+images/appartements/*
+!images/appartements/.gitkeep
+images/uploads/*
+!images/uploads/.gitkeep
+
+# Fichiers système
+.DS_Store
+Thumbs.db
+
+# Fichiers de configuration
+.env
+.env.local
+config.php
+
+# Logs
+*.log
+
+# Node modules (si applicable)
+node_modules/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo

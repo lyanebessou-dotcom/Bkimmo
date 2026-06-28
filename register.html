@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Inscription - Logiloc Immo</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Header -->
+    <header class="header">
+        <div class="container">
+            <nav class="navbar">
+                <div class="logo">
+                    <a href="index.html">
+                        <img src="Design sans titre (4) (1).svg" alt="Logiloc Immo">
+                        <span>Logiloc Immo</span>
+                    </a>
+                </div>
+                <ul class="nav-menu">
+                    <li><a href="index.html">Accueil</a></li>
+                    <li><a href="index.html#services">Services</a></li>
+                    <li><a href="index.html#appartements">Appartements</a></li>
+                    <li><a href="login.html">Connexion</a></li>
+                </ul>
+                <div class="header-actions">
+                    <button class="theme-toggle" id="themeToggle" aria-label="Toggle dark mode">
+                        <i class="fas fa-moon"></i>
+                    </button>
+                    <div class="nav-toggle">
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                    </div>
+                </div>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Auth Section -->
+    <section class="auth-section">
+        <div class="container">
+            <div class="auth-container">
+                <div class="auth-form-wrapper">
+                    <div class="auth-header">
+                        <h2>Créer un compte</h2>
+                        <p>Rejoignez Logiloc Immo pour accéder à nos services</p>
+                    </div>
+                    
+                    <form class="auth-form" id="registerForm">
+                        <div class="form-group">
+                            <label for="nom">Nom complet *</label>
+                            <input type="text" id="nom" name="nom" required>
+                        </div>
+                        
+                        <div class="form-group">
+                            <label for="email">Email *</label>
+                            <input type="email" id="email" name="email" required>
+                        </div>
+                        
+                        <div class="form-group">
+                            <label for="telephone">Téléphone *</label>
+                            <input type="tel" id="telephone" name="telephone" required>
+                        </div>
+                        
+                        <div class="form-group">
+                            <label for="password">Mot de passe *</label>
+                            <input type="password" id="password" name="password" required minlength="8">
+                            <small class="password-hint">Minimum 8 caractères</small>
+                        </div>
+                        
+                        <div class="form-group">
+                            <label for="confirm_password">Confirmer le mot de passe *</label>
+                            <input type="password" id="confirm_password" name="confirm_password" required minlength="8">
+                        </div>
+                        
+                        <div class="form-group">
+                            <label for="type_compte">Type de compte</label>
+                            <select id="type_compte" name="type_compte">
+                                <option value="client">Client</option>
+                                <option value="proprietaire">Propriétaire</option>
+                            </select>
+                        </div>
+                        
+                        <div class="form-group checkbox-group">
+                            <label class="checkbox-label">
+                                <input type="checkbox" id="conditions" name="conditions" required>
+                                <span>J'accepte les conditions d'utilisation et la politique de confidentialité</span>
+                            </label>
+                        </div>
+                        
+                        <button type="submit" class="btn btn-primary btn-full">S'inscrire</button>
+                    </form>
+                    
+                    <div class="auth-footer">
+                        <p>Déjà inscrit ? <a href="login.html">Connectez-vous</a></p>
+                    </div>
+                </div>
+                
+                <div class="auth-info">
+                    <h3>Pourquoi créer un compte ?</h3>
+                    <ul class="auth-benefits">
+                        <li>
+                            <i class="fas fa-calendar-check"></i>
+                            <div>
+                                <h4>Réservation en ligne</h4>
+                                <p>Réservez vos appartements meublés en quelques clics</p>
+                            </div>
+                        </li>
+                        <li>
+                            <i class="fas fa-history"></i>
+                            <div>
+                                <h4>Historique des réservations</h4>
+                                <p>Suivez toutes vos réservations passées et futures</p>
+                            </div>
+                        </li>
+                        <li>
+                            <i class="fas fa-bell"></i>
+                            <div>
+                                <h4>Alertes disponibilités</h4>
+                                <p>Soyez notifié des nouvelles disponibilités</p>
+                            </div>
+                        </li>
+                        <li>
+                            <i class="fas fa-file-alt"></i>
+                            <div>
+                                <h4>Demandes de services</h4>
+                                <p>Accédez à tous nos services immobiliers</p>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <div class="footer-logo">
+                        <img src="Design sans titre (4) (1).svg" alt="Logiloc Immo">
+                    </div>
+                    <p>Votre partenaire immobilier de confiance pour tous vos projets de location et gestion.</p>
+                    <div class="social-links">
+                        <a href="#"><i class="fab fa-facebook-f"></i></a>
+                        <a href="#"><i class="fab fa-twitter"></i></a>
+                        <a href="#"><i class="fab fa-linkedin-in"></i></a>
+                        <a href="#"><i class="fab fa-instagram"></i></a>
+                    </div>
+                </div>
+                
+                <div class="footer-section">
+                    <h4>Services</h4>
+                    <ul>
+                        <li><a href="#">Location Meublée</a></li>
+                        <li><a href="#">Gestion Locative</a></li>
+                        <li><a href="#">Transaction</a></li>
+                        <li><a href="#">Syndic</a></li>
+                        <li><a href="#">Évaluation</a></li>
+                        <li><a href="#">Promotion</a></li>
+                        <li><a href="#">Conseil</a></li>
+                    </ul>
+                </div>
+                
+                <div class="footer-section">
+                    <h4>Liens utiles</h4>
+                    <ul>
+                        <li><a href="index.html">Accueil</a></li>
+                        <li><a href="index.html#services">Services</a></li>
+                        <li><a href="index.html#appartements">Appartements</a></li>
+                        <li><a href="index.html#contact">Contact</a></li>
+                        <li><a href="login.html">Connexion</a></li>
+                        <li><a href="register.html">Inscription</a></li>
+                    </ul>
+                </div>
+                
+                <div class="footer-section">
+                    <h4>Contact</h4>
+                    <ul>
+                        <li><i class="fas fa-map-marker-alt"></i> 123 Avenue de l'Immobilier, Paris</li>
+                        <li><i class="fas fa-phone"></i> +33 1 23 45 67 89</li>
+                        <li><i class="fas fa-envelope"></i> contact@logilocimmo.fr</li>
+                    </ul>
+                </div>
+            </div>
+            
+            <div class="footer-bottom">
+                <p>&copy; 2024 Logiloc Immo. Tous droits réservés.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="js/main.js"></script>
+    <script src="js/auth.js"></script>
+</body>
+</html>

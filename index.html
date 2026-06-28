@@ -1,0 +1,998 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Logiloc Immo - Agence Immobilière Spécialisée</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Header -->
+    <header class="header">
+        <div class="container">
+            <nav class="navbar">
+                <div class="logo">
+                    <a href="index.html">
+                        <img src="Design sans titre (4) (1).svg" alt="Logiloc Immo">
+                    </a>
+                </div>
+                <ul class="nav-menu">
+                    <li><a href="#accueil" class="active">Accueil</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#appartements">Appartements</a></li>
+                    <li><a href="#reservation">Réservation</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                    <li><a href="login.html">Connexion</a></li>
+                    <li><a href="register.html" class="btn-register">Inscription</a></li>
+                </ul>
+                <div class="header-actions">
+                    <button class="theme-toggle" id="themeToggle" aria-label="Toggle dark mode">
+                        <i class="fas fa-moon"></i>
+                    </button>
+                    <div class="nav-toggle">
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                    </div>
+                </div>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Hero Section - Premium Banner -->
+    <section id="accueil" class="hero premium-banner">
+        <div class="container">
+            <div class="hero-content">
+                <div class="premium-badge">
+                    <i class="fas fa-crown"></i>
+                    <span>Premium</span>
+                </div>
+                <h1>Votre Partenaire Immobilier de Confiance</h1>
+                <p class="value-message">Plus de 10 ans d'expertise pour vous offrir des solutions immobilières sur-mesure. Qualité, transparence et satisfaction garanties.</p>
+                <div class="hero-buttons">
+                    <a href="#reservation" class="btn btn-primary btn-premium">
+                        <i class="fas fa-calendar-check"></i>
+                        Réserver maintenant
+                    </a>
+                    <a href="#contact" class="btn btn-secondary btn-premium">
+                        <i class="fas fa-file-invoice"></i>
+                        Demander un devis
+                    </a>
+                </div>
+                <div class="hero-stats">
+                    <div class="stat-item">
+                        <span class="stat-number">500+</span>
+                        <span class="stat-label">Appartements</span>
+                    </div>
+                    <div class="stat-item">
+                        <span class="stat-number">1000+</span>
+                        <span class="stat-label">Clients satisfaits</span>
+                    </div>
+                    <div class="stat-item">
+                        <span class="stat-number">10+</span>
+                        <span class="stat-label">Années d'expérience</span>
+                    </div>
+                </div>
+            </div>
+            <div class="hero-image">
+                <img src="https://images.unsplash.com/photo-1486406146926-c627a92ad1ab?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80" alt="Bâtiment moderne">
+            </div>
+        </div>
+    </section>
+
+    <!-- Quick Preview Section -->
+    <section id="preview" class="preview-section">
+        <div class="container">
+            <h2 class="section-title">Découvrez Nos Offres</h2>
+            <p class="section-subtitle">Aperçu rapide de nos appartements meublés et services</p>
+            
+            <div class="preview-grid">
+                <div class="preview-card appartements-preview">
+                    <div class="preview-icon">
+                        <i class="fas fa-home"></i>
+                    </div>
+                    <h3>Appartements Meublés</h3>
+                    <p>Logements modernes et équipés pour toutes vos durées de séjour</p>
+                    <ul class="preview-features">
+                        <li><i class="fas fa-check"></i> Studios, T1, T2, T3</li>
+                        <li><i class="fas fa-check"></i> Courte, moyenne, longue durée</li>
+                        <li><i class="fas fa-check"></i> Quartiers premium</li>
+                    </ul>
+                    <a href="#appartements" class="btn btn-outline">Voir les appartements</a>
+                </div>
+
+                <div class="preview-card services-preview">
+                    <div class="preview-icon">
+                        <i class="fas fa-concierge-bell"></i>
+                    </div>
+                    <h3>Nos Services</h3>
+                    <p>Des solutions complètes pour tous vos besoins immobiliers</p>
+                    <ul class="preview-features">
+                        <li><i class="fas fa-check"></i> Gestion locative</li>
+                        <li><i class="fas fa-check"></i> Transaction immobilière</li>
+                        <li><i class="fas fa-check"></i> Syndic de copropriété</li>
+                    </ul>
+                    <a href="#services" class="btn btn-outline">Découvrir nos services</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Avantages Section -->
+    <section id="avantages" class="avantages-section">
+        <div class="container">
+            <h2 class="section-title">Nos Avantages</h2>
+            <p class="section-subtitle">Pourquoi choisir ImmoGestion Pro ?</p>
+            
+            <div class="avantages-grid">
+                <div class="avantage-card">
+                    <div class="avantage-icon">
+                        <i class="fas fa-shield-alt"></i>
+                    </div>
+                    <h3>Sécurité Garantie</h3>
+                    <p>Contrats sécurisés et protection de vos données personnelles</p>
+                </div>
+
+                <div class="avantage-card">
+                    <div class="avantage-icon">
+                        <i class="fas fa-clock"></i>
+                    </div>
+                    <h3>Réponse Rapide</h3>
+                    <p>Délai de réponse sous 24h pour toutes vos demandes</p>
+                </div>
+
+                <div class="avantage-card">
+                    <div class="avantage-icon">
+                        <i class="fas fa-euro-sign"></i>
+                    </div>
+                    <h3>Prix Compétitifs</h3>
+                    <p>Tarifs transparents sans frais cachés</p>
+                </div>
+
+                <div class="avantage-card">
+                    <div class="avantage-icon">
+                        <i class="fas fa-headset"></i>
+                    </div>
+                    <h3>Support 24/7</h3>
+                    <p>Assistance disponible à tout moment</p>
+                </div>
+
+                <div class="avantage-card">
+                    <div class="avantage-icon">
+                        <i class="fas fa-star"></i>
+                    </div>
+                    <h3>Qualité Premium</h3>
+                    <p>Logements et services de haute qualité</p>
+                </div>
+
+                <div class="avantage-card">
+                    <div class="avantage-icon">
+                        <i class="fas fa-handshake"></i>
+                    </div>
+                    <h3>Relation de Confiance</h3>
+                    <p>Partenariat durable avec nos clients</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Services Section -->
+    <section id="services" class="services">
+        <div class="container">
+            <h2 class="section-title">Nos Services</h2>
+            <p class="section-subtitle">Des solutions immobilières complètes pour tous vos besoins</p>
+            
+            <div class="services-grid">
+                <div class="services-scroll-wrapper">
+                <div class="service-card">
+                    <div class="service-icon">
+                        <img src="https://images.unsplash.com/photo-1522708323590-d24dbb6b0267?ixlib=rb-4.0.3&auto=format&fit=crop&w=100&q=80" alt="Location">
+                    </div>
+                    <h3>Location d'Appartements Meublés</h3>
+                    <p>Appartements meublés pour courte, moyenne et longue durée. Solutions flexibles adaptées à vos besoins.</p>
+                    <ul>
+                        <li><i class="fas fa-check"></i> Courte durée (jours à semaines)</li>
+                        <li><i class="fas fa-check"></i> Moyenne durée (1-6 mois)</li>
+                        <li><i class="fas fa-check"></i> Longue durée (plus de 6 mois)</li>
+                    </ul>
+                </div>
+
+                <div class="service-card">
+                    <div class="service-icon">
+                        <img src="https://images.unsplash.com/photo-1560518883-ce09059eeffa?ixlib=rb-4.0.3&auto=format&fit=crop&w=100&q=80" alt="Gestion">
+                    </div>
+                    <h3>Gestion Locative</h3>
+                    <p>Gestion complète de vos biens immobiliers. Nous nous occupons de tout pour votre tranquillité.</p>
+                    <ul>
+                        <li><i class="fas fa-check"></i> Recherche de locataires</li>
+                        <li><i class="fas fa-check"></i> Encaissement des loyers</li>
+                        <li><i class="fas fa-check"></i> Gestion des réparations</li>
+                    </ul>
+                </div>
+
+                <div class="service-card">
+                    <div class="service-icon">
+                        <img src="https://images.unsplash.com/photo-1560518883-ce09059eeffa?ixlib=rb-4.0.3&auto=format&fit=crop&w=100&q=80" alt="Transaction">
+                    </div>
+                    <h3>Transaction Immobilière</h3>
+                    <p>Achat, vente et location de biens immobiliers. Accompagnement personnalisé pour chaque transaction.</p>
+                    <ul>
+                        <li><i class="fas fa-check"></i> Vente de biens</li>
+                        <li><i class="fas fa-check"></i> Achat immobilier</li>
+                        <li><i class="fas fa-check"></i> Location pure</li>
+                    </ul>
+                </div>
+
+                <div class="service-card">
+                    <div class="service-icon">
+                        <img src="https://images.unsplash.com/photo-1486406146926-c627a92ad1ab?ixlib=rb-4.0.3&auto=format&fit=crop&w=100&q=80" alt="Syndic">
+                    </div>
+                    <h3>Syndic de Copropriété</h3>
+                    <p>Gestion professionnelle de votre copropriété. Transparence et efficacité garanties.</p>
+                    <ul>
+                        <li><i class="fas fa-check"></i> Gestion administrative</li>
+                        <li><i class="fas fa-check"></i> Comptabilité</li>
+                        <li><i class="fas fa-check"></i> Maintenance des parties communes</li>
+                    </ul>
+                </div>
+
+                <div class="service-card">
+                    <div class="service-icon">
+                        <img src="https://images.unsplash.com/photo-1554224155-8d04cb21cd6c?ixlib=rb-4.0.3&auto=format&fit=crop&w=100&q=80" alt="Évaluation">
+                    </div>
+                    <h3>Évaluation Immobilière</h3>
+                    <p>Estimation précise de vos biens immobiliers. Expertise certifiée pour valoriser votre patrimoine.</p>
+                    <ul>
+                        <li><i class="fas fa-check"></i> Estimation gratuite</li>
+                        <li><i class="fas fa-check"></i> Rapport détaillé</li>
+                        <li><i class="fas fa-check"></i> Analyse du marché</li>
+                    </ul>
+                </div>
+
+                <div class="service-card">
+                    <div class="service-icon">
+                        <img src="https://images.unsplash.com/photo-1503387762-592deb58ef4e?ixlib=rb-4.0.3&auto=format&fit=crop&w=100&q=80" alt="Aménagement">
+                    </div>
+                    <h3>Aménagement et Promotion Immobilière</h3>
+                    <p>Conception et réalisation de projets immobiliers. De l'idée à la livraison clé en main.</p>
+                    <ul>
+                        <li><i class="fas fa-check"></i> Promotion immobilière</li>
+                        <li><i class="fas fa-check"></i> Rénovation</li>
+                        <li><i class="fas fa-check"></i> Aménagement intérieur</li>
+                    </ul>
+                </div>
+
+                <div class="service-card">
+                    <div class="service-icon">
+                        <img src="https://images.unsplash.com/photo-1556761175-5973dc0f32e7?ixlib=rb-4.0.3&auto=format&fit=crop&w=100&q=80" alt="Conseil">
+                    </div>
+                    <h3>Conseil et Accompagnement</h3>
+                    <p>Expert-conseil pour tous vos projets immobiliers. Un accompagnement sur-mesure.</p>
+                    <ul>
+                        <li><i class="fas fa-check"></i> Conseil en investissement</li>
+                        <li><i class="fas fa-check"></i> Accompagnement juridique</li>
+                        <li><i class="fas fa-check"></i> Optimisation fiscale</li>
+                    </ul>
+                </div>
+
+                <!-- Duplication pour défilement infini -->
+                <div class="service-card">
+                    <div class="service-icon">
+                        <img src="https://images.unsplash.com/photo-1522708323590-d24dbb6b0267?ixlib=rb-4.0.3&auto=format&fit=crop&w=100&q=80" alt="Location">
+                    </div>
+                    <h3>Location d'Appartements Meublés</h3>
+                    <p>Appartements meublés pour courte, moyenne et longue durée. Solutions flexibles adaptées à vos besoins.</p>
+                    <ul>
+                        <li><i class="fas fa-check"></i> Courte durée (jours à semaines)</li>
+                        <li><i class="fas fa-check"></i> Moyenne durée (1-6 mois)</li>
+                        <li><i class="fas fa-check"></i> Longue durée (plus de 6 mois)</li>
+                    </ul>
+                </div>
+
+                <div class="service-card">
+                    <div class="service-icon">
+                        <img src="https://images.unsplash.com/photo-1560518883-ce09059eeffa?ixlib=rb-4.0.3&auto=format&fit=crop&w=100&q=80" alt="Gestion">
+                    </div>
+                    <h3>Gestion Locative</h3>
+                    <p>Gestion complète de vos biens immobiliers. Nous nous occupons de tout pour votre tranquillité.</p>
+                    <ul>
+                        <li><i class="fas fa-check"></i> Recherche de locataires</li>
+                        <li><i class="fas fa-check"></i> Encaissement des loyers</li>
+                        <li><i class="fas fa-check"></i> Gestion des réparations</li>
+                    </ul>
+                </div>
+
+                <div class="service-card">
+                    <div class="service-icon">
+                        <img src="https://images.unsplash.com/photo-1560518883-ce09059eeffa?ixlib=rb-4.0.3&auto=format&fit=crop&w=100&q=80" alt="Transaction">
+                    </div>
+                    <h3>Transaction Immobilière</h3>
+                    <p>Achat, vente et location de biens immobiliers. Accompagnement personnalisé pour chaque transaction.</p>
+                    <ul>
+                        <li><i class="fas fa-check"></i> Vente de biens</li>
+                        <li><i class="fas fa-check"></i> Achat immobilier</li>
+                        <li><i class="fas fa-check"></i> Location pure</li>
+                    </ul>
+                </div>
+
+                <div class="service-card">
+                    <div class="service-icon">
+                        <img src="https://images.unsplash.com/photo-1486406146926-c627a92ad1ab?ixlib=rb-4.0.3&auto=format&fit=crop&w=100&q=80" alt="Syndic">
+                    </div>
+                    <h3>Syndic de Copropriété</h3>
+                    <p>Gestion professionnelle de votre copropriété. Transparence et efficacité garanties.</p>
+                    <ul>
+                        <li><i class="fas fa-check"></i> Gestion administrative</li>
+                        <li><i class="fas fa-check"></i> Comptabilité</li>
+                        <li><i class="fas fa-check"></i> Maintenance des parties communes</li>
+                    </ul>
+                </div>
+
+                <div class="service-card">
+                    <div class="service-icon">
+                        <img src="https://images.unsplash.com/photo-1554224155-8d04cb21cd6c?ixlib=rb-4.0.3&auto=format&fit=crop&w=100&q=80" alt="Évaluation">
+                    </div>
+                    <h3>Évaluation Immobilière</h3>
+                    <p>Estimation précise de vos biens immobiliers. Expertise certifiée pour valoriser votre patrimoine.</p>
+                    <ul>
+                        <li><i class="fas fa-check"></i> Estimation gratuite</li>
+                        <li><i class="fas fa-check"></i> Rapport détaillé</li>
+                        <li><i class="fas fa-check"></i> Analyse du marché</li>
+                    </ul>
+                </div>
+
+                <div class="service-card">
+                    <div class="service-icon">
+                        <img src="https://images.unsplash.com/photo-1503387762-592deb58ef4e?ixlib=rb-4.0.3&auto=format&fit=crop&w=100&q=80" alt="Aménagement">
+                    </div>
+                    <h3>Aménagement et Promotion Immobilière</h3>
+                    <p>Conception et réalisation de projets immobiliers. De l'idée à la livraison clé en main.</p>
+                    <ul>
+                        <li><i class="fas fa-check"></i> Promotion immobilière</li>
+                        <li><i class="fas fa-check"></i> Rénovation</li>
+                        <li><i class="fas fa-check"></i> Aménagement intérieur</li>
+                    </ul>
+                </div>
+
+                <div class="service-card">
+                    <div class="service-icon">
+                        <img src="https://images.unsplash.com/photo-1556761175-5973dc0f32e7?ixlib=rb-4.0.3&auto=format&fit=crop&w=100&q=80" alt="Conseil">
+                    </div>
+                    <h3>Conseil et Accompagnement</h3>
+                    <p>Expert-conseil pour tous vos projets immobiliers. Un accompagnement sur-mesure.</p>
+                    <ul>
+                        <li><i class="fas fa-check"></i> Conseil en investissement</li>
+                        <li><i class="fas fa-check"></i> Accompagnement juridique</li>
+                        <li><i class="fas fa-check"></i> Optimisation fiscale</li>
+                    </ul>
+                </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Appartements Section -->
+    <section id="appartements" class="appartements">
+        <div class="container">
+            <h2 class="section-title">Nos Appartements</h2>
+            <p class="section-subtitle">Découvrez notre sélection de logements meublés</p>
+            
+            <div class="filter-buttons">
+                <button class="filter-btn active" data-filter="all">Tous</button>
+                <button class="filter-btn" data-filter="court">Courte Durée</button>
+                <button class="filter-btn" data-filter="moyen">Moyenne Durée</button>
+                <button class="filter-btn" data-filter="long">Longue Durée</button>
+            </div>
+
+            <div class="appartements-grid">
+                <div class="appartements-scroll-wrapper">
+                <div class="appartement-card" data-duration="court">
+                    <div class="appartement-image">
+                        <img src="https://images.unsplash.com/photo-1502672260266-1c1ef2d93688?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&q=80" alt="Appartement Centre-Ville Moderne">
+                        <span class="appartement-tag">Court Durée</span>
+                    </div>
+                    <div class="appartement-content">
+                        <h3>Appartement Centre-Ville Moderne</h3>
+                        <p class="location"><i class="fas fa-map-marker-alt"></i> 15 Rue de la République, Paris 75001</p>
+                        <div class="appartement-features">
+                            <span><i class="fas fa-bed"></i> 1 Ch.</span>
+                            <span><i class="fas fa-bath"></i> 1 SdB</span>
+                            <span><i class="fas fa-ruler-combined"></i> 45 m²</span>
+                        </div>
+                        <div class="appartement-price">
+                            <span class="price">85</span>
+                            <span class="period">/nuit</span>
+                        </div>
+                        <a href="#reservation" class="btn btn-reserve">Réserver</a>
+                    </div>
+                </div>
+
+                <div class="appartement-card" data-duration="court">
+                    <div class="appartement-image">
+                        <img src="https://images.unsplash.com/photo-1522708323590-d24dbb6b0267?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&q=80" alt="Studio Cosy Quartier Latin">
+                        <span class="appartement-tag">Court Durée</span>
+                    </div>
+                    <div class="appartement-content">
+                        <h3>Studio Cosy Quartier Latin</h3>
+                        <p class="location"><i class="fas fa-map-marker-alt"></i> 8 Rue Mouffetard, Paris 75005</p>
+                        <div class="appartement-features">
+                            <span><i class="fas fa-bed"></i> 1 Ch.</span>
+                            <span><i class="fas fa-bath"></i> 1 SdB</span>
+                            <span><i class="fas fa-ruler-combined"></i> 28 m²</span>
+                        </div>
+                        <div class="appartement-price">
+                            <span class="price">65</span>
+                            <span class="period">/nuit</span>
+                        </div>
+                        <a href="#reservation" class="btn btn-reserve">Réserver</a>
+                    </div>
+                </div>
+
+                <div class="appartement-card" data-duration="long">
+                    <div class="appartement-image">
+                        <img src="https://images.unsplash.com/photo-1560448204-e02f11c3d0e2?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&q=80" alt="T3 Familial Bastille">
+                        <span class="appartement-tag">Long Durée</span>
+                    </div>
+                    <div class="appartement-content">
+                        <h3>T3 Familial Bastille</h3>
+                        <p class="location"><i class="fas fa-map-marker-alt"></i> 42 Boulevard Beaumarchais, Paris 75011</p>
+                        <div class="appartement-features">
+                            <span><i class="fas fa-bed"></i> 3 Ch.</span>
+                            <span><i class="fas fa-bath"></i> 2 SdB</span>
+                            <span><i class="fas fa-ruler-combined"></i> 75 m²</span>
+                        </div>
+                        <div class="appartement-price">
+                            <span class="price">1 800</span>
+                            <span class="period">/mois</span>
+                        </div>
+                        <a href="#reservation" class="btn btn-reserve">Réserver</a>
+                    </div>
+                </div>
+
+                <div class="appartement-card" data-duration="court">
+                    <div class="appartement-image">
+                        <img src="https://images.unsplash.com/photo-1493809842364-78817add7ffb?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&q=80" alt="Loft Industriel Marais">
+                        <span class="appartement-tag">Court Durée</span>
+                    </div>
+                    <div class="appartement-content">
+                        <h3>Loft Industriel Marais</h3>
+                        <p class="location"><i class="fas fa-map-marker-alt"></i> 25 Rue des Rosiers, Paris 75004</p>
+                        <div class="appartement-features">
+                            <span><i class="fas fa-bed"></i> 2 Ch.</span>
+                            <span><i class="fas fa-bath"></i> 1 SdB</span>
+                            <span><i class="fas fa-ruler-combined"></i> 65 m²</span>
+                        </div>
+                        <div class="appartement-price">
+                            <span class="price">150</span>
+                            <span class="period">/nuit</span>
+                        </div>
+                        <a href="#reservation" class="btn btn-reserve">Réserver</a>
+                    </div>
+                </div>
+
+                <div class="appartement-card" data-duration="moyen">
+                    <div class="appartement-image">
+                        <img src="https://images.unsplash.com/photo-1560185007-cde436f6a4d0?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&q=80" alt="Appartement d'Affaires La Défense">
+                        <span class="appartement-tag">Moyen Durée</span>
+                    </div>
+                    <div class="appartement-content">
+                        <h3>Appartement d'Affaires La Défense</h3>
+                        <p class="location"><i class="fas fa-map-marker-alt"></i> 12 Avenue du Général de Gaulle, Courbevoie 92400</p>
+                        <div class="appartement-features">
+                            <span><i class="fas fa-bed"></i> 1 Ch.</span>
+                            <span><i class="fas fa-bath"></i> 1 SdB</span>
+                            <span><i class="fas fa-ruler-combined"></i> 50 m²</span>
+                        </div>
+                        <div class="appartement-price">
+                            <span class="price">1 200</span>
+                            <span class="period">/mois</span>
+                        </div>
+                        <a href="#reservation" class="btn btn-reserve">Réserver</a>
+                    </div>
+                </div>
+
+                <div class="appartement-card" data-duration="court">
+                    <div class="appartement-image">
+                        <img src="https://images.unsplash.com/photo-1502672023488-70e25813eb80?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&q=80" alt="T4 Vue Tour Eiffel">
+                        <span class="appartement-tag">Court Durée</span>
+                    </div>
+                    <div class="appartement-content">
+                        <h3>T4 Vue Tour Eiffel</h3>
+                        <p class="location"><i class="fas fa-map-marker-alt"></i> 78 Rue de l'Université, Paris 75007</p>
+                        <div class="appartement-features">
+                            <span><i class="fas fa-bed"></i> 4 Ch.</span>
+                            <span><i class="fas fa-bath"></i> 2 SdB</span>
+                            <span><i class="fas fa-ruler-combined"></i> 95 m²</span>
+                        </div>
+                        <div class="appartement-price">
+                            <span class="price">350</span>
+                            <span class="period">/nuit</span>
+                        </div>
+                        <a href="#reservation" class="btn btn-reserve">Réserver</a>
+                    </div>
+                </div>
+
+                <div class="appartement-card" data-duration="long">
+                    <div class="appartement-image">
+                        <img src="https://images.unsplash.com/photo-1536376072261-38c75010e6c9?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&q=80" alt="Studio Étudiant Montparnasse">
+                        <span class="appartement-tag">Long Durée</span>
+                    </div>
+                    <div class="appartement-content">
+                        <h3>Studio Étudiant Montparnasse</h3>
+                        <p class="location"><i class="fas fa-map-marker-alt"></i> 33 Rue du Montparnasse, Paris 75014</p>
+                        <div class="appartement-features">
+                            <span><i class="fas fa-bed"></i> 1 Ch.</span>
+                            <span><i class="fas fa-bath"></i> 1 SdB</span>
+                            <span><i class="fas fa-ruler-combined"></i> 22 m²</span>
+                        </div>
+                        <div class="appartement-price">
+                            <span class="price">750</span>
+                            <span class="period">/mois</span>
+                        </div>
+                        <a href="#reservation" class="btn btn-reserve">Réserver</a>
+                    </div>
+                </div>
+
+                <div class="appartement-card" data-duration="court">
+                    <div class="appartement-image">
+                        <img src="https://images.unsplash.com/photo-1554995207-c18c203602cb?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&q=80" alt="Duplex Charme Canal Saint-Martin">
+                        <span class="appartement-tag">Court Durée</span>
+                    </div>
+                    <div class="appartement-content">
+                        <h3>Duplex Charme Canal Saint-Martin</h3>
+                        <p class="location"><i class="fas fa-map-marker-alt"></i> 18 Quai de Jemmapes, Paris 75010</p>
+                        <div class="appartement-features">
+                            <span><i class="fas fa-bed"></i> 2 Ch.</span>
+                            <span><i class="fas fa-bath"></i> 1 SdB</span>
+                            <span><i class="fas fa-ruler-combined"></i> 55 m²</span>
+                        </div>
+                        <div class="appartement-price">
+                            <span class="price">200</span>
+                            <span class="period">/nuit</span>
+                        </div>
+                        <a href="#reservation" class="btn btn-reserve">Réserver</a>
+                    </div>
+                </div>
+
+                <!-- Duplication pour défilement infini -->
+                <div class="appartement-card" data-duration="court">
+                    <div class="appartement-image">
+                        <img src="https://images.unsplash.com/photo-1502672260266-1c1ef2d93688?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&q=80" alt="Appartement Centre-Ville Moderne">
+                        <span class="appartement-tag">Court Durée</span>
+                    </div>
+                    <div class="appartement-content">
+                        <h3>Appartement Centre-Ville Moderne</h3>
+                        <p class="location"><i class="fas fa-map-marker-alt"></i> 15 Rue de la République, Paris 75001</p>
+                        <div class="appartement-features">
+                            <span><i class="fas fa-bed"></i> 1 Ch.</span>
+                            <span><i class="fas fa-bath"></i> 1 SdB</span>
+                            <span><i class="fas fa-ruler-combined"></i> 45 m²</span>
+                        </div>
+                        <div class="appartement-price">
+                            <span class="price">85</span>
+                            <span class="period">/nuit</span>
+                        </div>
+                        <a href="#reservation" class="btn btn-reserve">Réserver</a>
+                    </div>
+                </div>
+
+                <div class="appartement-card" data-duration="court">
+                    <div class="appartement-image">
+                        <img src="https://images.unsplash.com/photo-1522708323590-d24dbb6b0267?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&q=80" alt="Studio Cosy Quartier Latin">
+                        <span class="appartement-tag">Court Durée</span>
+                    </div>
+                    <div class="appartement-content">
+                        <h3>Studio Cosy Quartier Latin</h3>
+                        <p class="location"><i class="fas fa-map-marker-alt"></i> 8 Rue Mouffetard, Paris 75005</p>
+                        <div class="appartement-features">
+                            <span><i class="fas fa-bed"></i> 1 Ch.</span>
+                            <span><i class="fas fa-bath"></i> 1 SdB</span>
+                            <span><i class="fas fa-ruler-combined"></i> 28 m²</span>
+                        </div>
+                        <div class="appartement-price">
+                            <span class="price">65</span>
+                            <span class="period">/nuit</span>
+                        </div>
+                        <a href="#reservation" class="btn btn-reserve">Réserver</a>
+                    </div>
+                </div>
+
+                <div class="appartement-card" data-duration="long">
+                    <div class="appartement-image">
+                        <img src="https://images.unsplash.com/photo-1560448204-e02f11c3d0e2?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&q=80" alt="T3 Familial Bastille">
+                        <span class="appartement-tag">Long Durée</span>
+                    </div>
+                    <div class="appartement-content">
+                        <h3>T3 Familial Bastille</h3>
+                        <p class="location"><i class="fas fa-map-marker-alt"></i> 42 Boulevard Beaumarchais, Paris 75011</p>
+                        <div class="appartement-features">
+                            <span><i class="fas fa-bed"></i> 3 Ch.</span>
+                            <span><i class="fas fa-bath"></i> 2 SdB</span>
+                            <span><i class="fas fa-ruler-combined"></i> 75 m²</span>
+                        </div>
+                        <div class="appartement-price">
+                            <span class="price">1 800</span>
+                            <span class="period">/mois</span>
+                        </div>
+                        <a href="#reservation" class="btn btn-reserve">Réserver</a>
+                    </div>
+                </div>
+
+                <div class="appartement-card" data-duration="court">
+                    <div class="appartement-image">
+                        <img src="https://images.unsplash.com/photo-1493809842364-78817add7ffb?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&q=80" alt="Loft Industriel Marais">
+                        <span class="appartement-tag">Court Durée</span>
+                    </div>
+                    <div class="appartement-content">
+                        <h3>Loft Industriel Marais</h3>
+                        <p class="location"><i class="fas fa-map-marker-alt"></i> 25 Rue des Rosiers, Paris 75004</p>
+                        <div class="appartement-features">
+                            <span><i class="fas fa-bed"></i> 2 Ch.</span>
+                            <span><i class="fas fa-bath"></i> 1 SdB</span>
+                            <span><i class="fas fa-ruler-combined"></i> 65 m²</span>
+                        </div>
+                        <div class="appartement-price">
+                            <span class="price">150</span>
+                            <span class="period">/nuit</span>
+                        </div>
+                        <a href="#reservation" class="btn btn-reserve">Réserver</a>
+                    </div>
+                </div>
+
+                <div class="appartement-card" data-duration="moyen">
+                    <div class="appartement-image">
+                        <img src="https://images.unsplash.com/photo-1560185007-cde436f6a4d0?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&q=80" alt="Appartement d'Affaires La Défense">
+                        <span class="appartement-tag">Moyen Durée</span>
+                    </div>
+                    <div class="appartement-content">
+                        <h3>Appartement d'Affaires La Défense</h3>
+                        <p class="location"><i class="fas fa-map-marker-alt"></i> 12 Avenue du Général de Gaulle, Courbevoie 92400</p>
+                        <div class="appartement-features">
+                            <span><i class="fas fa-bed"></i> 1 Ch.</span>
+                            <span><i class="fas fa-bath"></i> 1 SdB</span>
+                            <span><i class="fas fa-ruler-combined"></i> 50 m²</span>
+                        </div>
+                        <div class="appartement-price">
+                            <span class="price">1 200</span>
+                            <span class="period">/mois</span>
+                        </div>
+                        <a href="#reservation" class="btn btn-reserve">Réserver</a>
+                    </div>
+                </div>
+
+                <div class="appartement-card" data-duration="court">
+                    <div class="appartement-image">
+                        <img src="https://images.unsplash.com/photo-1502672023488-70e25813eb80?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&q=80" alt="T4 Vue Tour Eiffel">
+                        <span class="appartement-tag">Court Durée</span>
+                    </div>
+                    <div class="appartement-content">
+                        <h3>T4 Vue Tour Eiffel</h3>
+                        <p class="location"><i class="fas fa-map-marker-alt"></i> 78 Rue de l'Université, Paris 75007</p>
+                        <div class="appartement-features">
+                            <span><i class="fas fa-bed"></i> 4 Ch.</span>
+                            <span><i class="fas fa-bath"></i> 2 SdB</span>
+                            <span><i class="fas fa-ruler-combined"></i> 95 m²</span>
+                        </div>
+                        <div class="appartement-price">
+                            <span class="price">350</span>
+                            <span class="period">/nuit</span>
+                        </div>
+                        <a href="#reservation" class="btn btn-reserve">Réserver</a>
+                    </div>
+                </div>
+
+                <div class="appartement-card" data-duration="long">
+                    <div class="appartement-image">
+                        <img src="https://images.unsplash.com/photo-1536376072261-38c75010e6c9?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&q=80" alt="Studio Étudiant Montparnasse">
+                        <span class="appartement-tag">Long Durée</span>
+                    </div>
+                    <div class="appartement-content">
+                        <h3>Studio Étudiant Montparnasse</h3>
+                        <p class="location"><i class="fas fa-map-marker-alt"></i> 33 Rue du Montparnasse, Paris 75014</p>
+                        <div class="appartement-features">
+                            <span><i class="fas fa-bed"></i> 1 Ch.</span>
+                            <span><i class="fas fa-bath"></i> 1 SdB</span>
+                            <span><i class="fas fa-ruler-combined"></i> 22 m²</span>
+                        </div>
+                        <div class="appartement-price">
+                            <span class="price">750</span>
+                            <span class="period">/mois</span>
+                        </div>
+                        <a href="#reservation" class="btn btn-reserve">Réserver</a>
+                    </div>
+                </div>
+
+                <div class="appartement-card" data-duration="court">
+                    <div class="appartement-image">
+                        <img src="https://images.unsplash.com/photo-1554995207-c18c203602cb?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&q=80" alt="Duplex Charme Canal Saint-Martin">
+                        <span class="appartement-tag">Court Durée</span>
+                    </div>
+                    <div class="appartement-content">
+                        <h3>Duplex Charme Canal Saint-Martin</h3>
+                        <p class="location"><i class="fas fa-map-marker-alt"></i> 18 Quai de Jemmapes, Paris 75010</p>
+                        <div class="appartement-features">
+                            <span><i class="fas fa-bed"></i> 2 Ch.</span>
+                            <span><i class="fas fa-bath"></i> 1 SdB</span>
+                            <span><i class="fas fa-ruler-combined"></i> 55 m²</span>
+                        </div>
+                        <div class="appartement-price">
+                            <span class="price">200</span>
+                            <span class="period">/nuit</span>
+                        </div>
+                        <a href="#reservation" class="btn btn-reserve">Réserver</a>
+                    </div>
+                </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Reservation Section -->
+    <section id="reservation" class="reservation">
+        <div class="container">
+            <h2 class="section-title">Réservation en Ligne</h2>
+            <p class="section-subtitle">Réservez votre appartement en quelques clics</p>
+            
+            <div class="reservation-form-container">
+                <form action="mailto:contact@immogestionpro.fr" method="post" enctype="text/plain" class="reservation-form">
+                    <div class="form-row">
+                        <div class="form-group">
+                            <label for="nom">Nom complet *</label>
+                            <input type="text" id="nom" name="nom" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="email">Email *</label>
+                            <input type="email" id="email" name="email" required>
+                        </div>
+                    </div>
+                    
+                    <div class="form-row">
+                        <div class="form-group">
+                            <label for="telephone">Téléphone *</label>
+                            <input type="tel" id="telephone" name="telephone" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="appartement">Appartement *</label>
+                            <select id="appartement" name="appartement" required>
+                                <option value="">Sélectionnez un appartement</option>
+                                <option value="Appartement Centre-Ville Moderne - 85 €/nuit">Appartement Centre-Ville Moderne - 85 €/nuit</option>
+                                <option value="Studio Cosy Quartier Latin - 65 €/nuit">Studio Cosy Quartier Latin - 65 €/nuit</option>
+                                <option value="T3 Familial Bastille - 1 800 €/mois">T3 Familial Bastille - 1 800 €/mois</option>
+                                <option value="Loft Industriel Marais - 150 €/nuit">Loft Industriel Marais - 150 €/nuit</option>
+                                <option value="Appartement d'Affaires La Défense - 1 200 €/mois">Appartement d'Affaires La Défense - 1 200 €/mois</option>
+                                <option value="T4 Vue Tour Eiffel - 350 €/nuit">T4 Vue Tour Eiffel - 350 €/nuit</option>
+                                <option value="Studio Étudiant Montparnasse - 750 €/mois">Studio Étudiant Montparnasse - 750 €/mois</option>
+                                <option value="Duplex Charme Canal Saint-Martin - 200 €/nuit">Duplex Charme Canal Saint-Martin - 200 €/nuit</option>
+                            </select>
+                        </div>
+                    </div>
+                    
+                    <div class="form-row">
+                        <div class="form-group">
+                            <label for="date_arrivee">Date d'arrivée *</label>
+                            <input type="date" id="date_arrivee" name="date_arrivee" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="date_depart">Date de départ *</label>
+                            <input type="date" id="date_depart" name="date_depart" required>
+                        </div>
+                    </div>
+                    
+                    <div class="form-group">
+                        <label for="message">Message</label>
+                        <textarea id="message" name="message" rows="4"></textarea>
+                    </div>
+                    
+                    <button type="submit" class="btn btn-primary">Envoyer la demande</button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!-- Témoignages Section -->
+    <section id="temoignages" class="temoignages-section">
+        <div class="container">
+            <h2 class="section-title">Témoignages Clients</h2>
+            <p class="section-subtitle">Ce que nos clients disent de nous</p>
+            
+            <div class="temoignages-grid">
+                <div class="temoignage-card">
+                    <div class="temoignage-rating">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                    <p class="temoignage-text">"Excellent service ! L'appartement était exactement comme décrit et l'équipe a été très réactive tout au long de mon séjour."</p>
+                    <div class="temoignage-author">
+                        <div class="author-avatar">
+                            <i class="fas fa-user"></i>
+                        </div>
+                        <div class="author-info">
+                            <h4>Marie Dupont</h4>
+                            <span>Locataire - 3 mois</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="temoignage-card">
+                    <div class="temoignage-rating">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                    <p class="temoignage-text">"La gestion locative est impeccable. Je recommande vivement leurs services pour tout propriétaire souhaitant être tranquille."</p>
+                    <div class="temoignage-author">
+                        <div class="author-avatar">
+                            <i class="fas fa-user"></i>
+                        </div>
+                        <div class="author-info">
+                            <h4>Pierre Martin</h4>
+                            <span>Propriétaire</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="temoignage-card">
+                    <div class="temoignage-rating">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                    </div>
+                    <p class="temoignage-text">"Service professionnel et personnalisé. L'équipe a su comprendre mes besoins et m'a trouvé le logement idéal."</p>
+                    <div class="temoignage-author">
+                        <div class="author-avatar">
+                            <i class="fas fa-user"></i>
+                        </div>
+                        <div class="author-info">
+                            <h4>Sophie Bernard</h4>
+                            <span>Locataire - 6 mois</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Quick Contact Section -->
+    <section id="quick-contact" class="quick-contact-section">
+        <div class="container">
+            <div class="quick-contact-content">
+                <div class="quick-contact-info">
+                    <h2>Contact Rapide</h2>
+                    <p>Une question ? Besoin d'informations ? Contactez-nous maintenant !</p>
+                    
+                    <div class="quick-contact-items">
+                        <div class="quick-contact-item">
+                            <div class="quick-contact-icon">
+                                <i class="fas fa-phone-alt"></i>
+                            </div>
+                            <div class="quick-contact-text">
+                                <h4>Téléphone</h4>
+                                <p>+33 1 23 45 67 89</p>
+                            </div>
+                        </div>
+
+                        <div class="quick-contact-item">
+                            <div class="quick-contact-icon">
+                                <i class="fas fa-envelope"></i>
+                            </div>
+                            <div class="quick-contact-text">
+                                <h4>Email</h4>
+                                <p>contact@immogestionpro.fr</p>
+                            </div>
+                        </div>
+
+                        <div class="quick-contact-item">
+                            <div class="quick-contact-icon">
+                                <i class="fas fa-map-marker-alt"></i>
+                            </div>
+                            <div class="quick-contact-text">
+                                <h4>Adresse</h4>
+                                <p>123 Avenue de l'Immobilier, Paris</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="quick-contact-social">
+                        <a href="#"><i class="fab fa-facebook-f"></i></a>
+                        <a href="#"><i class="fab fa-twitter"></i></a>
+                        <a href="#"><i class="fab fa-linkedin-in"></i></a>
+                        <a href="#"><i class="fab fa-instagram"></i></a>
+                    </div>
+                </div>
+
+                <div class="quick-contact-form">
+                    <h3>Envoyez-nous un message</h3>
+                    <form action="#contact" method="POST">
+                        <div class="form-group">
+                            <input type="text" placeholder="Votre nom" required>
+                        </div>
+                        <div class="form-group">
+                            <input type="email" placeholder="Votre email" required>
+                        </div>
+                        <div class="form-group">
+                            <input type="tel" placeholder="Votre téléphone">
+                        </div>
+                        <div class="form-group">
+                            <textarea placeholder="Votre message" rows="4" required></textarea>
+                        </div>
+                        <button type="submit" class="btn btn-primary btn-full">
+                            <i class="fas fa-paper-plane"></i>
+                            Envoyer
+                        </button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <div class="footer-logo">
+                        <img src="Design sans titre (4) (1).svg" alt="Logiloc Immo">
+                    </div>
+                    <p>Votre partenaire immobilier de confiance pour tous vos projets de location et gestion.</p>
+                    <div class="social-links">
+                        <a href="#"><i class="fab fa-facebook-f"></i></a>
+                        <a href="#"><i class="fab fa-twitter"></i></a>
+                        <a href="#"><i class="fab fa-linkedin-in"></i></a>
+                        <a href="#"><i class="fab fa-instagram"></i></a>
+                    </div>
+                </div>
+                
+                <div class="footer-section">
+                    <h4>Services</h4>
+                    <ul>
+                        <li><a href="#">Location Meublée</a></li>
+                        <li><a href="#">Gestion Locative</a></li>
+                        <li><a href="#">Transaction</a></li>
+                        <li><a href="#">Syndic</a></li>
+                        <li><a href="#">Évaluation</a></li>
+                        <li><a href="#">Promotion</a></li>
+                        <li><a href="#">Conseil</a></li>
+                    </ul>
+                </div>
+                
+                <div class="footer-section">
+                    <h4>Liens Rapides</h4>
+                    <ul>
+                        <li><a href="#accueil">Accueil</a></li>
+                        <li><a href="#services">Services</a></li>
+                        <li><a href="#appartements">Appartements</a></li>
+                        <li><a href="#reservation">Réservation</a></li>
+                        <li><a href="#contact">Contact</a></li>
+                        <li><a href="#">Mentions Légales</a></li>
+                        <li><a href="#">Politique de Confidentialité</a></li>
+                    </ul>
+                </div>
+                
+                <div class="footer-section">
+                    <h4>Newsletter</h4>
+                    <p>Inscrivez-vous pour recevoir nos dernières offres.</p>
+                    <form action="mailto:contact@immogestionpro.fr" method="post" enctype="text/plain" class="newsletter-form">
+                        <input type="email" name="email" placeholder="Votre email" required>
+                        <button type="submit"><i class="fas fa-paper-plane"></i></button>
+                    </form>
+                </div>
+            </div>
+            
+            <div class="footer-bottom">
+                <p>&copy; 2024 Logiloc Immo. Tous droits réservés.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="js/main.js"></script>
+</body>
+</html>
