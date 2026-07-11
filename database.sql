@@ -1,9 +1,12 @@
--- Base de données Logiloc Immo
+-- Base de données Logiloc Immo pour Infinity Free
 -- Système de gestion immobilière complet
+-- 
+-- IMPORTANT: Pour Infinity Free, ne pas utiliser CREATE DATABASE
+-- La base de données est déjà créée via le panel Infinity Free
+-- Utilisez uniquement les instructions de création de tables
 
--- Création de la base de données
-CREATE DATABASE IF NOT EXISTS logiloc_immo CHARACTER SET utf8mb4 COLLATE utf8mb4_unicode_ci;
-USE logiloc_immo;
+-- Utilisation de la base de données (remplacez par le nom de votre base de données Infinity Free)
+-- USE if0_xxxxxxxx_logiloc_immo;
 
 -- Table des utilisateurs
 CREATE TABLE IF NOT EXISTS utilisateurs (
