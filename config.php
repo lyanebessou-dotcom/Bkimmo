@@ -17,7 +17,7 @@ define('DB_NAME', 'if0_xxxxxxxx_logiloc_immo'); // Remplacez par le nom de votre
 
 // Configuration du site
 define('SITE_URL', 'https://votre-site.infinityfreeapp.com'); // Remplacez par votre URL de site
-define('SITE_NAME', 'Logiloc Immo');
+define('SITE_NAME', 'Bkimmo');
 
 // Configuration de session
 define('SESSION_DURATION', 3600); // 1 heure en secondes

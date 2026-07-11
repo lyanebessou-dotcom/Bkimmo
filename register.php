@@ -50,7 +50,7 @@ if (isLoggedIn()) {
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Inscription - Logiloc Immo</title>
+    <title>Inscription - Bkimmo</title>
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
@@ -62,8 +62,8 @@ if (isLoggedIn()) {
             <nav class="navbar">
                 <div class="logo">
                     <a href="index.php">
-                        <img src="Design sans titre (4) (1).svg" alt="Logiloc Immo">
-                        <span>Logiloc Immo</span>
+                        <img src="Design sans titre (4) (1).svg" alt="Bkimmo">
+                        <span>Bkimmo</span>
                     </a>
                 </div>
                 <ul class="nav-menu">
@@ -93,7 +93,7 @@ if (isLoggedIn()) {
                 <div class="auth-form-wrapper">
                     <div class="auth-header">
                         <h2>Créer un compte</h2>
-                        <p>Rejoignez Logiloc Immo pour accéder à nos services</p>
+                        <p>Rejoignez Bkimmo pour accéder à nos services</p>
                     </div>
                     
                     <?php if (isset($error)): ?>
@@ -201,7 +201,7 @@ if (isLoggedIn()) {
             <div class="footer-content">
                 <div class="footer-section">
                     <div class="footer-logo">
-                        <img src="Design sans titre (4) (1).svg" alt="Logiloc Immo">
+                        <img src="Design sans titre (4) (1).svg" alt="Bkimmo">
                     </div>
                     <p>Votre partenaire immobilier de confiance pour tous vos projets de location et gestion.</p>
                     <div class="social-links">
@@ -248,7 +248,7 @@ if (isLoggedIn()) {
             </div>
             
             <div class="footer-bottom">
-                <p>&copy; 2024 Logiloc Immo. Tous droits réservés.</p>
+                <p>&copy; 2024 Bkimmo. Tous droits réservés.</p>
             </div>
         </div>
     </footer>

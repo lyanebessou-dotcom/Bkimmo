@@ -1,4 +1,4 @@
-# Logiloc Immo - Application Web de Gestion Immobilière
+# Bkimmo - Application Web de Gestion Immobilière
 
 Application web complète pour une agence immobilière spécialisée dans la location, la gestion locative, les transactions immobilières et les services connexes. Développée pour être déployée sur Infinity Free.
 
@@ -172,7 +172,7 @@ Pour toute question ou problème technique, contactez :
 
 ## Licence
 
-Ce projet est propriété de Logiloc Immo. Tous droits réservés.
+Ce projet est propriété de Bkimmo. Tous droits réservés.
 
 ---
 

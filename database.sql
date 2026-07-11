@@ -1,4 +1,4 @@
--- Base de données Logiloc Immo pour Infinity Free
+-- Base de données Bkimmo pour Infinity Free
 -- Système de gestion immobilière complet
 -- 
 -- IMPORTANT: Pour Infinity Free, ne pas utiliser CREATE DATABASE

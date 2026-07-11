@@ -53,7 +53,7 @@ $reservations = $stmt->fetchAll();
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Administration - Logiloc Immo</title>
+    <title>Administration - Bkimmo</title>
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="css/admin.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
@@ -66,8 +66,8 @@ $reservations = $stmt->fetchAll();
             <nav class="navbar">
                 <div class="logo">
                     <a href="index.php">
-                        <img src="Design sans titre (4) (1).svg" alt="Logiloc Immo">
-                        <span>Logiloc Immo Admin</span>
+                        <img src="Design sans titre (4) (1).svg" alt="Bkimmo">
+                        <span>Bkimmo Admin</span>
                     </a>
                 </div>
                 <div class="header-actions">
